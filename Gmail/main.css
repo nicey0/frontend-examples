@@ -23,7 +23,7 @@ main {
     width: 750px;
     border: 1px solid #dadce0;
     border-radius: 8px;
-    padding: 28px 0 28px 34px;
+    padding: 45px 0 40px 34px;
     display: flex;
     flex-direction: row;
 }
@@ -46,19 +46,20 @@ form input, form span {
     display: inline;
 }
 
-form section {
+form > section {
     font-size: 0;
 }
 
-form section * {
+form > section * {
     font-size: 14px;
 }
 
-form section small {
+form > section small {
+    margin-top: 8px;
     font-size: 12px;
 }
 
-form section {
+form > section {
     margin: 0 0 24px 0;
 }
 
@@ -68,11 +69,11 @@ form #name {
     justify-content: space-between;
 }
 
-form section input {
+form > section input {
     width: 100%;
 }
 
-form section div:first-child {
+form > section div:first-child {
     margin-right: 16px;
 }
 
@@ -96,24 +97,61 @@ form #username span {
     border-bottom-left-radius: 0;
 }
 
-form #username small {
-    margin-top: 8px;
-}
-
-form #password {
+form #password > section {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 8px;
 }
 
-form #password div:nth-child(2) {
+form #password > section div:nth-child(2) {
     margin-right: 16px;
 }
 
-form #password div.show-hide {
+form #password > section div.show-hide {
     height: 15px;
     width: 15px;
     background-color: black;
+}
+
+form #bottom {
+    margin-top: 48px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form #bottom > * {
+    font-weight: 500;
+}
+
+form #bottom a {
+    color: #1a73e8;
+    text-decoration: none;
+    padding: 12px 14px;
+    position: relative;
+    left: -12px;
+    transition: background-color 0.25s;
+    border-radius: 4px;
+}
+
+form #bottom a:hover {
+    background-color: rgba(66,133,244,.05);
+}
+
+form #bottom button {
+    background-color: #1a73e8;
+    border: 1px solid #1a73e8;
+    border-radius: 4px;
+    padding: 8px 28px;
+    color: #fff;
+    transition: box-shadow .28s cubic-bezier(0.4,0.0,0.2,1);
+}
+
+form #bottom button:hover {
+    background-color: #1251A3;
+    box-shadow: 2px 2px 10px -5px #1a73e8;
 }
 
 #right {
