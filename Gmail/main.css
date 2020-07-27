@@ -64,14 +64,15 @@ form section {
 
 form #name {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
-form #name input {
-    width: calc(50% - 16px);
-    /*width: 50%;*/
+form section input {
+    width: 100%;
 }
 
-form #name input:first-child {
+form section div:first-child {
     margin-right: 16px;
 }
 
@@ -80,6 +81,7 @@ form #username {
     grid-template-rows: 1fr;
     grid-template-columns: 3fr 1fr;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 form #username input {
@@ -96,6 +98,22 @@ form #username span {
 
 form #username small {
     margin-top: 8px;
+}
+
+form #password {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form #password div:nth-child(2) {
+    margin-right: 16px;
+}
+
+form #password div.show-hide {
+    height: 15px;
+    width: 15px;
+    background-color: black;
 }
 
 #right {
