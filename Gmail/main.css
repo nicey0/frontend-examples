@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing : border-box;
+    color: #202124;
 }
 
 html, body {
@@ -38,19 +39,23 @@ form {
     width: 368px;
 }
 
-form input {
+form input, form span {
     border: 1px solid #dadce0;
     border-radius: 4px;
     padding: 8px;
     display: inline;
 }
 
-form > * {
+form section {
     font-size: 0;
 }
 
-form > * * {
-    font-size: 16px;
+form section * {
+    font-size: 14px;
+}
+
+form section small {
+    font-size: 12px;
 }
 
 form section {
@@ -58,16 +63,23 @@ form section {
 }
 
 form #name {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 16px;
+    display: flex;
+}
+
+form #name input {
+    width: calc(50% - 16px);
+    /*width: 50%;*/
+}
+
+form #name input:first-child {
+    margin-right: 16px;
 }
 
 form #username {
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 2.5fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
 }
 
 form #username input {
@@ -80,6 +92,10 @@ form #username span {
     border-left: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+form #username small {
+    margin-top: 8px;
 }
 
 #right {
