@@ -4,6 +4,7 @@
     font-size: 16px;
     margin: 0;
     padding: 0;
+    box-sizing : border-box;
 }
 
 html, body {
@@ -17,29 +18,72 @@ body {
     align-items: center;
 }
 
-#left {
-    float: left;
-}
-
 main {
     width: 750px;
     border: 1px solid #dadce0;
     border-radius: 8px;
-    padding: 28px;
+    padding: 28px 0 28px 34px;
+    display: flex;
+    flex-direction: row;
 }
 
 header h1 {
     font-size: 24px;
     margin-top: 14px;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 form {
+    margin-top: 32px;
+    width: 368px;
+}
+
+form input {
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    padding: 8px;
+    display: inline;
+}
+
+form > * {
+    font-size: 0;
+}
+
+form > * * {
+    font-size: 16px;
+}
+
+form section {
+    margin: 0 0 24px 0;
+}
+
+form #name {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+}
+
+form #username {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2.5fr 1fr;
+}
+
+form #username input {
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+form #username span {
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 #right {
-    width: 45%;
-    float: right;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
