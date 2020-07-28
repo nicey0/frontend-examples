@@ -23,7 +23,7 @@ main {
     width: 750px;
     border: 1px solid #dadce0;
     border-radius: 8px;
-    padding: 45px 0 40px 34px;
+    padding: 50px 0 40px 34px;
     display: flex;
     flex-direction: row;
 }
@@ -126,10 +126,12 @@ form #password > section div:nth-child(2) {
     margin-right: 16px;
 }
 
-form #password > section div.show-hide {
-    height: 15px;
-    width: 15px;
-    background-color: black;
+form #password > section .show-hide {
+    width: 50px;
+    color: rgba(0, 0, 0, 0.54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form #bottom {
@@ -169,7 +171,8 @@ form #bottom button {
 
 form #bottom button:hover {
     background-color: #1251A3;
-    box-shadow: 2px 2px 10px -5px #1a73e8;
+    box-shadow: 0 0 10px -5px #1a73e8;
+    cursor: pointer;
 }
 
 #right {
