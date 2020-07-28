@@ -17,7 +17,8 @@
     transform: scale(0.75, 0.75) translate(-15%, -145%);
 }
 
-form > section > div > input:focus {
-    border-color: #1a73e8;
+form .text-input > input:focus {
     border-width: 2px;
+    border-color: #1a73e8;
+    padding: 8px;
 }

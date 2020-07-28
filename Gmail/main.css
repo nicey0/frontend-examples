@@ -42,8 +42,9 @@ form {
 form input, form span {
     border: 1px solid #dadce0;
     border-radius: 4px;
-    padding: 8px;
-    display: inline;
+    height: 34px;
+    padding: 9px;
+    display: inline-block;
 }
 
 form .text-input span {
