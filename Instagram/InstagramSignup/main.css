@@ -25,6 +25,10 @@ section {
     padding: 32px 40px;
 }
 
+section:first-of-type {
+    margin-top: 12px;
+}
+
 section:last-of-type {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -58,9 +62,36 @@ header #logo img {
 }
 
 header h2 {
-    font-size: 16px;
+    font-size: 15.6px;
     line-height: 20px;
     font-weight: 600;
     text-align: center;
     color: #8e8e8e;
+    margin-bottom: 18px;
+}
+
+header button {
+    height: 32px;
+}
+
+header button#fb-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0095f6;
+    border: 0;
+    width: 100%;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+header button#fb-login span {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin-right: 6px;
+    background-image: url(stuffs.png);
+    background-position: -414px -300px;
 }
