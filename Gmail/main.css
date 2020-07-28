@@ -114,7 +114,7 @@ form #password > section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 form #password > section div:nth-child(2) {
@@ -128,7 +128,7 @@ form #password > section div.show-hide {
 }
 
 form #bottom {
-    margin-top: 48px;
+    margin-top: 36px;
     margin-bottom: 0;
     display: flex;
     justify-content: space-between;
