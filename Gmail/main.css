@@ -55,8 +55,10 @@ form > section * {
 }
 
 form > section small {
+    display: inline-block;
     margin-top: 8px;
     font-size: 12px;
+    max-width: 330px;
 }
 
 form > section {
