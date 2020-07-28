@@ -1,5 +1,6 @@
 .domain-active {
     border-color: #1a73e8;
     border-width: 2px;
+    border-left: 0;
     padding: 8px;
 }
