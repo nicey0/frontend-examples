@@ -6,16 +6,24 @@
     position: relative;
     top: -25px;
     left: 7px;
-    padding: 0 5px;
-    transition: transform 0.1s cubic-bezier(0.4,0.0,0.1,1), color 0.1s cubic-bezier(0.4,0.0,0.1,1),
+    height: 20px;
+    padding: 0 6px;
+    transition: transform 0.2s cubic-bezier(0.4,0.0,0.1,1), color 0.1s cubic-bezier(0.4,0.0,0.1,1),
                 background 0.04s;
     color: #5f6368;
 }
 
+.l-input.hack {
+    transition: transform 0.2s cubic-bezier(0.4,0.0,0.1,1), color 0s, background 0.04s;
+}
+
 .l-input.top {
-    color: #1a73e8;
     background-color: #fff;
-    transform: scale(0.75, 0.75) translate(-15%, -80%);
+    transform: scale(0.75, 0.75) translate(-15%, -115%);
+}
+
+.l-input.active {
+    color: #1a73e8;
 }
 
 form .text-input > input:focus {
