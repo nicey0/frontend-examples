@@ -11,10 +11,26 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(250, 250, 250);
+    background-color: #fafafa;
 }
 
 section {
     max-width: 350px;
     width: 100%;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    padding: 32px 40px;
+}
+
+section:last-of-type {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer > :first-child {
+    margin-bottom: 20px;
 }
