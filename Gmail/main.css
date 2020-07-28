@@ -119,19 +119,13 @@ form #password > section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 12px;
-}
-
-form #password > section div:nth-child(2) {
-    margin-right: 16px;
-}
-
-form #password > section .show-hide {
-    width: 50px;
-    color: rgba(0, 0, 0, 0.54);
-    display: flex;
     justify-content: center;
-    align-items: center;
+    margin-bottom: 8px;
+    height: 56px;
+}
+
+form #password small {
+    margin: 0;
 }
 
 form #bottom {
