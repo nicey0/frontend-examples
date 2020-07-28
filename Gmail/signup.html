@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Create your Google Account</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="inputs.css">
+    <link rel="stylesheet" href="label_anim.css">
 </head>
 <body>
     <main>
@@ -34,18 +34,33 @@
             </header>
             <form>
                 <section id="name">
-                    <div><input></div>
-                    <div><input></div>
+                    <div>
+                        <input id="first-name">
+                        <span class="l-input">First name</span>
+                    </div>
+                    <div>
+                        <input id="last-name">
+                        <span class="l-input">Last name</span>
+                    </div>
                 </section>
                 <section id="username">
-                    <input>
+                    <div>
+                        <input>
+                        <span class="l-input">Username</span>
+                    </div>
                     <span>@gmail.com</span>
                     <small>You can use letters, numbers &amp; periods</small>
                 </section>
                 <section id="password">
                     <section>
-                        <div><input></div>
-                        <div><input></div>
+                        <div>
+                            <input>
+                            <span class="l-input">Password</span>
+                        </div>
+                        <div>
+                            <input>
+                            <span class="l-input">Confirm</span>
+                        </div>
                         <div class="show-hide"></div>
                     </section>
                     <small>Use 8 or more characters with a mix of letters, numbers &amp; symbols</small>
