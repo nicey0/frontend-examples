@@ -46,6 +46,10 @@ form input, form span {
     display: inline;
 }
 
+form .text-input span {
+    pointer-events: none;
+}
+
 form > section {
     font-size: 0;
 }
