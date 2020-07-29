@@ -10,6 +10,10 @@ html, body {
     width: 100vw;
 }
 
+a {
+    text-decoration: none;
+}
+
 #top {
     background-color: #1c1c1c;
     height: 100vh;
@@ -95,4 +99,18 @@ html, body {
     filter: invert() brightness(50%);
     max-height: 35px;
     padding: 9px;
+}
+
+#top > main > small, #top > main > small a {
+    margin-top: 18px;
+    font-size: 12px;
+    color: #fff;
+}
+
+#top > main > small {
+    color: #ccc;
+}
+
+#top > main > small a {
+    color: #eee;
 }
