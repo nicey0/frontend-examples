@@ -119,3 +119,20 @@ header .hf-separator .vline {
     background-color: #8e8e8e;
     opacity: 0.5;
 }
+
+/* Form */
+form {
+    width: 100%;
+}
+
+form * {
+    width: 100%;
+}
+
+form > div {
+    margin-bottom: 6px
+}
+
+form > div:last-of-type {
+    margin-bottom: 12px;
+}
