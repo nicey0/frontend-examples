@@ -16,7 +16,6 @@ for (let i=0; i<divs.length; i++) {
         if (areEqual(form_valid, [true, true, true, true])) {
             signup_btn.classList.remove("inactive");
             signup_btn.disabled = false;
-            console.log("yeet");
         } else {
             signup_btn.classList.add("inactive");
             signup_btn.disabled = true;
