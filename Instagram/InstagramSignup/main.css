@@ -15,6 +15,10 @@ body {
     background-color: #fafafa;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Outer Sections */
 
 section {
@@ -26,23 +30,13 @@ section {
 }
 
 section:first-of-type {
-    margin-top: 12px;
+    margin-top: 24px;
 }
 
 section:last-of-type {
     margin-top: 10px;
     padding-top: 25px;
     padding-bottom: 25px;
-}
-
-/* Footer */
-
-footer {
-    margin-top: 20px;
-}
-
-footer > :first-child {
-    margin-bottom: 20px;
 }
 
 /* Header */
@@ -65,7 +59,7 @@ header #logo img {
 }
 
 header h2 {
-    font-size: 15.6px;
+    font-size: 17px;
     line-height: 20px;
     font-weight: 600;
     text-align: center;
@@ -146,6 +140,7 @@ form > div:last-of-type {
 form > div input {
     border: 1px solid #dbdbdb;
     padding: 9px 0 7px 8px;
+    height: 36px;
     font-size: 12px;
     border-radius: 3px;
     background-color: #fafafa;
@@ -155,7 +150,8 @@ form > button {
     border: 0;
     background-color: #0095f6;
     border-radius: 4px;
-    padding: 5px 9px;
+    padding: 5px 0;
+    font-size: 14px;
     color: #fff;
     font-weight: bold;
     margin-bottom: 18px;
@@ -178,4 +174,21 @@ form > small > a {
 section:last-of-type > * {
     width: 100%;
     text-align: center;
+    font-size: 14px;
 }
+
+section:last-of-type a {
+    color: #0095f6;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer > :first-child {
+    margin-bottom: 20px;
+}
+
