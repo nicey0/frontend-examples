@@ -14,14 +14,19 @@ html, body {
     background-color: #1c1c1c;
     height: 100vh;
     display: grid;
-    grid-template-rows: 80px 1fr;
+    grid-template-rows: 80px 80px 1fr;
     grid-template-columns: auto;
+    grid-template-areas:
+    "header"
+    "."
+    "main"
 }
 
 #top > header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    grid-area: header;
 }
 
 #top > header .links {
@@ -34,16 +39,17 @@ html, body {
 
 #top > main {
     width: 100vw;
-    align-self: center;
+    align-self: start;
     justify-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    grid-area: main;
 }
 
 #top > main > img {
     max-width: 22%;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
 }
 
 #top > main > form {
