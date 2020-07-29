@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: #fafafa;
 }
 
@@ -118,9 +118,9 @@ header .hf-separator :not(.vline) {
 header .hf-separator .vline {
     display: inline-block;
     width: 100%;
-    height: 0.6px;
+    height: 1px;
     background-color: #8e8e8e;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 /* Form */
