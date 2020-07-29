@@ -147,7 +147,7 @@ form > div:last-of-type {
 
 form > div input {
     border: 1px solid #dbdbdb;
-    padding: 9px 0 7px 8px;
+    padding: 0 0 1px 8px;
     height: 36px;
     font-size: 12px;
     border-radius: 3px;

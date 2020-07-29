@@ -1,6 +1,20 @@
 .input-ph-text {
     color: #888;
     position: absolute;
-    transform: translate(-259px, 11px);
+    transform: translate(-259px, 9px);
     pointer-events: none;
+    transition: font-size 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.input-ph-text.top {
+    font-size: 10px;
+    transform: translate(-259px, 3px);
+}
+
+.input_labeled input {
+    transition: padding 0.1s ease-in-out;
+}
+
+.input_labeled input.bot {
+    padding-top: 12px;
 }
