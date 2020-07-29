@@ -4,6 +4,8 @@
     transform: translate(-259px, 9px);
     pointer-events: none;
     transition: font-size 0.1s ease-in-out, transform 0.1s ease-in-out;
+    display: inline-block;
+    max-width: 20em;
 }
 
 .input-ph-text.top {
@@ -17,4 +19,16 @@
 
 .input_labeled input.bot {
     padding-top: 12px;
+    padding-right: 40px;
+    text-overflow: ellipsis;
+}
+
+.input_labeled .icon {
+    position: absolute;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url(stuffs.png);
+    background-position: -225px -333px;
+    transform: translate(236px, -29px);
 }
