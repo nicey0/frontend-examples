@@ -19,8 +19,16 @@ a {
     text-decoration: none;
 }
 
-/* Outer Sections */
+button:hover {
+    cursor: pointer;
+}
 
+button.inactive {
+    cursor: default;
+    opacity: 0.3;
+}
+
+/* Outer Sections */
 section {
     max-width: 350px;
     width: 100%;
