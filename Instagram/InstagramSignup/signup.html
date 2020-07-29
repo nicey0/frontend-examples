@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Sign up • Instagram</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="input_labels.css">
 </head>
 <body>
     <section id="form">
@@ -20,19 +21,19 @@
             </div>
         </header>
         <form>
-            <div>
+            <div class="input_labeled">
+                <input type="text">
+                <span class="input-ph-text">Mobile number or email</span>
+            </div>
+            <div class="input_labeled">
+                <input type="text">
+                <span class="input-ph-text">Full Name</span>
+            </div>
+            <div class="input_labeled">
                 <input type="text">
                 <span class="input-ph-text"></span>
             </div>
-            <div>
-                <input type="text">
-                <span class="input-ph-text"></span>
-            </div>
-            <div>
-                <input type="text">
-                <span class="input-ph-text"></span>
-            </div>
-            <div>
+            <div class="input_labeled">
                 <input type="text">
                 <span class="input-ph-text"></span>
             </div>
@@ -49,4 +50,6 @@
         <a href="">GOOGLEPLAY</a>
     </footer>
 </body>
+<script src="input_labels.js"></script>
+<script src="signup_btn.js"></script>
 </html>

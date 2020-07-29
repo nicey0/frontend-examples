@@ -1,0 +1,6 @@
+.input-ph-text {
+    color: #888;
+    position: absolute;
+    transform: translate(-259px, 11px);
+    pointer-events: none;
+}
