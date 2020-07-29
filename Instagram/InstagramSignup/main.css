@@ -200,3 +200,16 @@ footer > :first-child {
     margin-bottom: 20px;
 }
 
+/* App Store/Google Play buttons */
+.download-btn {
+    display: inline-block;
+    height: 40px;
+}
+
+.download-btn:first-of-type {
+    margin-right: 4px;
+}
+
+.download-btn img {
+    max-height: 100%;
+}
