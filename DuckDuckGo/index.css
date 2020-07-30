@@ -137,6 +137,9 @@ body > :not(#top) > header h1 {
     font-size: 40px;
     text-align: center;
     display: inline-block;
+}
+
+body > :not(footer):not(#top) > header h1 {
     text-shadow: 0 1px 4px rgba(0,0,0,0.25);
 }
 
@@ -181,6 +184,33 @@ body > :not(footer):not(#top) > div {
     background-color: #87cef5;
 }
 
+#blue #top-bit {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 25px;
+}
+
+#blue #top-bit * {
+    font-size: 16px;
+}
+
+#blue #top-bit span {
+    color: #0008;
+}
+
+#blue #top-bit span:first-of-type:hover {
+    cursor: pointer;
+}
+
+#blue #top-bit span:last-of-type {
+    margin: 0 1em;
+}
+
+#blue #top-bit #back {
+    color: #000c;
+}
+
 #blue > header {
     color: #365374;
 }
@@ -205,6 +235,6 @@ body > :not(footer):not(#top) > div {
 
 #blue div {
     width: 100%;
-    height: 75%;
+    height: 70%;
     background-color: #fff2;
 }
