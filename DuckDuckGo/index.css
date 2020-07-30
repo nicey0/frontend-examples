@@ -43,7 +43,7 @@ a {
 }
 
 #top > main {
-    max-width: 100%;
+    width: 100%;
     align-self: start;
     justify-self: center;
     display: flex;
