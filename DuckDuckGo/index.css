@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-size: 10.8px;
+    font-family: sans-serif, serif;
 }
 
 html, body {
@@ -103,8 +104,8 @@ a {
 }
 
 #top > main > small, #top > main > small a {
-    margin-top: 18px;
-    font-size: 12px;
+    margin-top: 20px;
+    font-size: 13px;
     color: #fff;
 }
 
