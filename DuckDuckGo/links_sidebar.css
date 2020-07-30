@@ -1,0 +1,41 @@
+#top > header button {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #0000;
+}
+
+#top > header button:hover {
+    cursor: pointer;
+}
+
+#top > header button img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#top > header .links {
+    margin-right: 2em;
+    color: #ddd;
+}
+
+#top > header .links:hover {
+    filter: brightness(180%);
+}
+
+#top > header .sidebar-btn {
+    display: inline-block;
+    border: 0;
+    border-radius: 4px;
+    padding: 0.5%;
+}
+
+#top > header .sidebar-btn img {
+    filter: invert() brightness(80%);
+}
+
+#top > header .sidebar-btn:hover {
+    background-color: #fff3;
+}
