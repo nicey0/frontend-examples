@@ -39,3 +39,58 @@
 #top > header .sidebar-btn:hover {
     background-color: #fff3;
 }
+
+aside {
+    position: fixed;
+    font-size: 10.8px;
+    top: 0;
+    right: 0;
+    width: 16%;
+    height: 100%;
+    background-color: #282828;
+    color: #fff;
+    padding: 0 1em 0 1.5em;
+    transition: transform 0.4s ease-in-out;
+    overflow-y: auto;
+    transform: translateX(100%);
+}
+
+aside.active {
+    transform: translateX(0);
+}
+
+aside section {
+    width: 100%;
+    margin-top: 2.2em;
+}
+
+aside section > :first-child {
+    font-size: 9.9px;
+    color: #ccc;
+}
+
+aside section ul li:first-of-type {
+    margin-top: 1em;
+}
+
+aside section ul li {
+    list-style-type: none;
+    margin: 0.5em 0;
+}
+
+aside section ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+aside #x {
+    position: absolute;
+    right: 1em;
+    top: 2.2em;
+    transition: opacity 0.3s;
+}
+
+aside #x:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
