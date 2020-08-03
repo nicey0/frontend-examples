@@ -85,8 +85,9 @@ aside section ul li:hover {
 
 aside #x {
     position: absolute;
-    right: 1em;
-    top: 2.2em;
+    padding: 2.2em 1em 1em 1em;
+    right: 0;
+    top: 0;
     transition: opacity 0.3s;
 }
 
