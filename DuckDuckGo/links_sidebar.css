@@ -45,7 +45,7 @@ aside {
     font-size: 10.8px;
     top: 0;
     right: 0;
-    width: 140px;
+    width: 160px;
     height: 100%;
     background-color: #282828;
     color: #fff;
@@ -70,7 +70,7 @@ aside section > :first-child {
 }
 
 aside section ul li:first-of-type {
-    margin-top: 1em;
+    margin-top: 0.8em;
 }
 
 aside section ul li {
@@ -85,9 +85,11 @@ aside section ul li:hover {
 
 aside #x {
     position: absolute;
-    padding: 2.2em 1em 1em 1em;
+    padding: 1em 1.5em 1em 1em;
+    max-width: 38px;
+    filter: invert();
     right: 0;
-    top: 0;
+    top: 1.2em;
     transition: opacity 0.3s;
 }
 
