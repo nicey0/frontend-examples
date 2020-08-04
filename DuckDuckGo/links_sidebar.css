@@ -14,10 +14,17 @@
 #top > header button img {
     max-height: 100%;
     max-width: 100%;
+    filter: invert() brightness(80%);
+    vertical-align: middle;
+}
+
+#top > header .links img {
+    max-height: 80%;
+    max-width: 80%;
 }
 
 #top > header .links {
-    margin-right: 2em;
+    margin-right: 2.2em;
     color: #ddd;
 }
 
@@ -30,10 +37,6 @@
     border: 0;
     border-radius: 4px;
     padding: 0.5%;
-}
-
-#top > header .sidebar-btn img {
-    filter: invert() brightness(80%);
 }
 
 #top > header .sidebar-btn:hover {
@@ -119,21 +122,18 @@ body > ul li {
     list-style-type: none;
     display: flex;
     align-items: center;
+    border: 0;
 }
 
 body > ul li img {
-    width: 14px;
-    height: 14px;
-    background-color: white;
-    border-color: white;
-    border-radius: 100%;
+    max-width: 19px;
 }
 
 body > ul li span {
-    margin-left: 8px;
+    margin-left: 11px;
 }
 
 body > ul li * {
     font-size: 14px;
-    line-height: 32px;
+    line-height: 36px;
 }
